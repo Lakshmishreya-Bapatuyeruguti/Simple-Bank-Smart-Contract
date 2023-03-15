@@ -6,6 +6,44 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "customerAddress",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "successfulDeposit",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "customerAddress",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "successfulWithdraw",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -47,11 +85,6 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "toAccount",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
 						"name": "amount",
 						"type": "uint256"
@@ -91,11 +124,11 @@
 	},
 	"sources": {
 		"contract/Banking.sol": {
-			"keccak256": "0x7db5387d95ef74b6b66ff259d9b104b4fd9172ab2ecc934e40fda04b9efe2494",
+			"keccak256": "0xc16f77edd64354b1d6c0a3116c12e2594a303699acf6de4957169a497deaf8f6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://0e88f233e6d4e9d26b9f42805db6b084d7df388c416835a46ea77f54fcef56db",
-				"dweb:/ipfs/QmTDDFeiciekYbfGPo61K4cto1WY9XuNAt2tPEsTfnEifE"
+				"bzz-raw://d58f8d288fe7fdfbbb10e22ab99a94e43cac988b86cee2feed2e2a80d336b033",
+				"dweb:/ipfs/QmUVEJvudD86SBea8QvT3vr5zfuvBQbBNzjN5gfRsX1dbv"
 			]
 		}
 	},

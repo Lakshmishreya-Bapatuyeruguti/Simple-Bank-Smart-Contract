@@ -4,7 +4,65 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "customerBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "depositFunds",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "toAccount",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +91,11 @@
 	},
 	"sources": {
 		"contract/Banking.sol": {
-			"keccak256": "0x9733dffc08a15cd63760e0187b30b57df82da11c6d8faf40ea64ba99d22d47d4",
+			"keccak256": "0x7db5387d95ef74b6b66ff259d9b104b4fd9172ab2ecc934e40fda04b9efe2494",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2d27c0bed5eeaf9224867cf2369a4b555a71fb5ff24778bd42a5d55d10ee3235",
-				"dweb:/ipfs/QmQpe75VT35rz5xKcaXUYKBouTVRTW11feaHejzSJPyj6b"
+				"bzz-raw://0e88f233e6d4e9d26b9f42805db6b084d7df388c416835a46ea77f54fcef56db",
+				"dweb:/ipfs/QmTDDFeiciekYbfGPo61K4cto1WY9XuNAt2tPEsTfnEifE"
 			]
 		}
 	},
